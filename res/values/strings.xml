@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CS160</string>
+    <string name="action_settings">Settings</string>
+   <!--  activity_main
+ -->
+ 
+     <string name="email">Email</string>
+     <string name="password">Password</string>
+ 	 <string name ="submit">Submit</string>
+     <string name="welcomemessage">Hello world!</string>
+</resources>
