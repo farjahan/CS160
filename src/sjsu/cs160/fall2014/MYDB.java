@@ -22,13 +22,7 @@ public class MYDB extends SQLiteOpenHelper {
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
-		// create table at first time
-
-		// uid int , firstname varchar(30), lastname varchar(30),
-		// email varchar(45), password varchar (45),
-		// active varchar(5), pin varchar(30),
-		// PRIMARY KEY(uid)
-		String sql = "create table if not exists user (email varchar(30), password varchar(30), pin varchar(30)";
+		String sql = "create table if not exists user (email varchar(30), password varchar(30)";
 		db.execSQL(sql);
 
 	}

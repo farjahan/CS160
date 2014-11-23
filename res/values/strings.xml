@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CS160</string>
+    <string name="app_name">PVault</string>
     <string name="action_settings">Settings</string>
    <!--  activity_main
  -->
  
-     <string name="email">Email</string>
-     <string name="password">Password</string>
+
  	 <string name ="submit">Submit</string>
+ 	 <string name ="Ascending">Ascending</string>
+ 	 <string name ="Descending">Descending</string>
      <string name="welcomemessage">Hello world!</string>
+     <string name ="hello"> welcome to Home Page</string>
+     <string name="archive">welcome to Archive page Page</string>
+     <string name="upload">welcome to Upload page Page</string>
+   <!--   ********** -->
+   
+   <string name="hello_world">Login Screen</string>
+   <string name="email">Email</string>
+   <string name="password">Password</string>
+   <string name="Login">Login</string>
+   <string name="attempts">Attempts Left:</string>
+   <string name="description">lock</string>
+   <string name="title">Login Screen</string>
+   
+   
+   
+ <!--   welcome_message -->
+ 
+ 
+ 
+ <string name="welcome_message"> Welcome to Pavault. If you are not 
+     Registrated user please visit our:PVault.com. 
+     </string>
 </resources>

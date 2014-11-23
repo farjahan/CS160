@@ -1633,12 +1633,24 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f020030;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f020031;
         public static final int abc_textfield_search_material=0x7f020032;
-        public static final int ic_launcher=0x7f020033;
+        public static final int archive=0x7f020033;
+        public static final int ascending1=0x7f020034;
+        public static final int descending1=0x7f020035;
+        public static final int enabled_descendingbutton=0x7f020036;
+        public static final int enabledascendingbutton=0x7f020037;
+        public static final int home=0x7f020038;
+        public static final int ic_action_edit=0x7f020039;
+        public static final int ic_action_search=0x7f02003a;
+        public static final int ic_launcher=0x7f02003b;
+        public static final int lock=0x7f02003c;
+        public static final int upload=0x7f02003d;
     }
     public static final class id {
-        public static final int Email=0x7f050044;
-        public static final int Password=0x7f050042;
-        public static final int Submit=0x7f050045;
+        public static final int Ascending=0x7f050043;
+        public static final int Descending=0x7f050044;
+        public static final int Email=0x7f050048;
+        public static final int Password=0x7f050046;
+        public static final int Submit=0x7f050049;
         public static final int action_bar=0x7f050033;
         public static final int action_bar_activity_content=0x7f05001a;
         public static final int action_bar_container=0x7f050032;
@@ -1652,11 +1664,12 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f050030;
         public static final int action_mode_bar_stub=0x7f05002f;
         public static final int action_mode_close_button=0x7f050022;
-        public static final int action_settings=0x7f050046;
+        public static final int action_settings=0x7f050050;
         public static final int activity_chooser_view_content=0x7f050023;
         public static final int always=0x7f05000d;
         public static final int beginning=0x7f050012;
         public static final int bottom=0x7f050016;
+        public static final int button1=0x7f05004e;
         public static final int checkbox=0x7f05002b;
         public static final int collapseActionView=0x7f05000f;
         public static final int decor_content_parent=0x7f050031;
@@ -1664,8 +1677,10 @@ containing a value of this type.
         public static final int dialog=0x7f050010;
         public static final int disableHome=0x7f05000a;
         public static final int dropdown=0x7f050011;
+        public static final int editText1=0x7f05004b;
+        public static final int editText2=0x7f05004c;
         public static final int edit_query=0x7f050035;
-        public static final int emailText=0x7f050043;
+        public static final int emailText=0x7f050047;
         public static final int end=0x7f050014;
         public static final int expand_activities_button=0x7f050024;
         public static final int expanded_menu=0x7f05002a;
@@ -1674,13 +1689,15 @@ containing a value of this type.
         public static final int icon=0x7f050028;
         public static final int ifRoom=0x7f05000c;
         public static final int image=0x7f050025;
+        public static final int imageButton1=0x7f05004f;
+        public static final int index_activity_listview=0x7f050042;
         public static final int listMode=0x7f050002;
         public static final int list_item=0x7f050027;
         public static final int middle=0x7f050013;
         public static final int never=0x7f05000b;
         public static final int none=0x7f050004;
         public static final int normal=0x7f050001;
-        public static final int passwordtext=0x7f050041;
+        public static final int passwordtext=0x7f050045;
         public static final int progress_circular=0x7f05001e;
         public static final int progress_horizontal=0x7f05001f;
         public static final int radio=0x7f05002d;
@@ -1701,6 +1718,9 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001b;
         public static final int submit_area=0x7f05003e;
         public static final int tabMode=0x7f050003;
+        public static final int textView1=0x7f050041;
+        public static final int textView2=0x7f05004a;
+        public static final int textView3=0x7f05004d;
         public static final int title=0x7f050029;
         public static final int top=0x7f050015;
         public static final int up=0x7f050018;
@@ -1758,12 +1778,21 @@ containing a value of this type.
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
         public static final int activity_main=0x7f030017;
-        public static final int support_simple_spinner_dropdown_item=0x7f030018;
+        public static final int archive=0x7f030018;
+        public static final int home=0x7f030019;
+        public static final int login=0x7f03001a;
+        public static final int main=0x7f03001b;
+        public static final int newloginpage=0x7f03001c;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001d;
+        public static final int upload=0x7f03001e;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
     }
     public static final class string {
+        public static final int Ascending=0x7f0a0012;
+        public static final int Descending=0x7f0a0013;
+        public static final int Login=0x7f0a001b;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;
@@ -1819,12 +1848,24 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000d;
         public static final int action_settings=0x7f0a0010;
         public static final int app_name=0x7f0a000f;
+        public static final int archive=0x7f0a0016;
+        public static final int attempts=0x7f0a001c;
+        public static final int description=0x7f0a001d;
+        public static final int email=0x7f0a0019;
+        public static final int hello=0x7f0a0015;
+        /**    ********** 
+         */
+        public static final int hello_world=0x7f0a0018;
+        public static final int password=0x7f0a001a;
         /**   activity_main
  
          */
-        public static final int email=0x7f0a0011;
-        public static final int password=0x7f0a0012;
-        public static final int submit=0x7f0a0013;
+        public static final int submit=0x7f0a0011;
+        public static final int title=0x7f0a001e;
+        public static final int upload=0x7f0a0017;
+        /**    welcome_message 
+         */
+        public static final int welcome_message=0x7f0a001f;
         public static final int welcomemessage=0x7f0a0014;
     }
     public static final class style {

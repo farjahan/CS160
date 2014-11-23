@@ -1,16 +1,36 @@
 package sjsu.cs160.fall2014;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ActionBarActivity implements OnClickListener {
+
+	/** Called when the activity is first created. */
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.newloginpage);
+		View submitButton = this.findViewById(R.id.button1);
+		submitButton.setOnClickListener(this);
+
+	}
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+	public void onClick(View v) {
+
+		/*
+		 * Intent i = new Intent(getApplicationContext(), IndexActivity.class);
+		 * startActivity(i)
+		 */
+		final Intent i;
+
+		i = new Intent(getApplicationContext(), IndexActivity.class);
+		startActivity(i);
+		finish();
 	}
 
 	@Override
